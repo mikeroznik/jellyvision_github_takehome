@@ -1,0 +1,3 @@
+You don't specify what 'recently' is, so I used the GitHub default of last 100 events. It would be possible to use their event count and pages to fetch a larger amount, or use some looping calls to go back to a certain point in time, if needed. The rest of the logic will still work.
+How the output should be shown was also not specified, so I went with a command-line app and just output the results.
+There is no correlation between the activity types and the owned repos, so all the activity on the those repos could be from outside the top 3 activities.
